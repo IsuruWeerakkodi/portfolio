@@ -1,0 +1,57 @@
+.skills{
+    overflow: hidden;
+    width: 100vw;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    margin-top: 5rem;
+    justify-items: center;
+
+    /* height: calc(100vh - 5rem); */
+}
+
+.skillsTitle {
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 2rem;
+    margin-top: 2rem;
+    justify-self: center;
+    position: relative;
+
+    margin-top: 5rem;
+    
+}
+
+.skillsPara{
+    justify-content: space-between;
+    
+}
+
+.skillsMainDiv {
+    display: flex;
+    flex-direction: row;
+    border: 2px;
+    border-color: yellow;
+    gap: 2rem;
+}
+
+.image {
+    object-fit: cover;
+    height: 7rem;
+}
+
+.skillComponent {
+    padding: 2rem;
+    border: 2px solid white;
+    border-radius: 4rem;
+    background-color: rgb(29, 29, 29);
+    width: 25vw;
+}
+
+.skillComponent:hover {
+    background-color: rgb(59, 59, 59);
+}

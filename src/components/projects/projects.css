@@ -1,0 +1,77 @@
+.projects{
+    overflow: hidden;
+    width: 100vw;
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    justify-items: center;
+}
+
+.projectsTitle {
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 2rem;
+    margin-top: 5rem;
+    justify-self: center;
+    position: relative;
+    
+}
+
+#projectPara{
+    padding-bottom: 2rem;
+}
+
+
+.image {
+    object-fit: cover;
+    height: 7rem;
+}
+
+.projectRows{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    border-bottom: 5rem;
+}
+.projectColumn{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.projectComponent {
+    padding: 2rem;
+    border: 2px solid white;
+    border-radius: 4rem;
+    background-color: rgb(29, 29, 29);
+    width: 40vw;
+}
+
+.projectComponent:hover {
+    background-color: rgb(59, 59, 59);
+}
+
+.seeMoreBtn {
+    background: white;
+    color: black;
+    border: none;
+    padding: 0.6rem;
+    border-radius: 1rem;
+}
+
+.seeMoreBtn:hover {
+    background-color: skyblue;
+    cursor: pointer;
+}
+
+.seeMoreBtnImg {
+    object-fit: cover;
+    height: 1rem;
+    width: 1rem;
+    margin-right: 1rem;
+}
