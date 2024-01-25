@@ -51,6 +51,7 @@
     background-color: rgb(29, 29, 29);
     width: 40vw;
     min-height: 16rem;
+    color: white;
 }
 
 .projectComponent:hover {
