@@ -23,9 +23,8 @@ const Skills = () => {
                         <img src={taskManager} className="image" alt='taskManager'/>
                         <div>
                             <h2>Task Manager App</h2>
-                            <p>Java and Spring framework, Firebase, Google Auth, 
-                                Multipart file handling, React, Vite, Typescript
-                                MySQL, HikariCP, Transactions
+                            <p>Node.js, Firebase Google Auth, React, Vite,
+                                Typescript, MySQL, MySQL Pool
                             </p>
                         </div>
                     </div>
@@ -34,9 +33,9 @@ const Skills = () => {
                         <img src={filter} className="image" alt='filteringApp'/>
                         <div>
                             <h2>Data Filtering App</h2>
-                            <p>Java and Spring framework, Firebase, Google Auth, 
-                                Multipart file handling, React, Vite, Typescript
-                                MySQL, HikariCP, Transactions
+                            <p>Java, javaScript, Html, CSS, Spring
+                                framework, HikariCP, MySQL, Jackson Databind, Validation
+                                API, Hibernate Validator, Java Servlet API, JUnit Jupiter
                             </p>
                         </div>
                     </div>
@@ -47,9 +46,9 @@ const Skills = () => {
                         <img src={lecManagement} className="image" alt='lectureManagement'/>
                         <div>
                             <h2>Lecture Panel Management App</h2>
-                            <p>Java and Spring framework, Firebase, Google Auth, 
-                                Multipart file handling, React, Vite, Typescript
-                                MySQL, HikariCP, Transactions
+                            <p>Java and Spring framework, Firebase
+                                Google Auth, Multipart file handling, MySQL, HikariCP,
+                                Transactions, Layered Architecture
                             </p>
                         </div>
                     </div>
@@ -58,9 +57,8 @@ const Skills = () => {
                         <img src={smartPos} className="image" alt='pos'/>
                         <div>
                             <h2>EzPay POS</h2>
-                            <p>Java and Spring framework, Firebase, Google Auth, 
-                                Multipart file handling, React, Vite, Typescript
-                                MySQL, HikariCP, Transactions
+                            <p>Java, Maven, JavaFX-FXML, CSS, Scene
+                                Builder, Jasper
                             </p>
                         </div>
                     </div>

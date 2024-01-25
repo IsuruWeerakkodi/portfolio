@@ -7,6 +7,8 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import Contact from './components/contact/contact';
 import Footer from './components/footer/footer';
 
+const path = require('path')
+
 function App() {
   return (
     <div className="App">

@@ -92,21 +92,55 @@
 }
 
 
-
-@media screen and (max-width:950px) {
-    .bgPhoto {
-        right: -10vw;
-    }    
-}
-@media screen and (max-width:840px) {
+@media screen and (max-width:1200px) {
     .bgPhoto {
         right: -20vw;
+    }
+}
+@media screen and (max-width:950px) {
+    .bgPhoto {
+        right: -15vw;
+    }    
+}
+@media screen and (max-width:750px) {
+    .bgPhoto {
+        right: -30vw;
     }    
 }
 @media screen and (max-width:500px) {
     .bgPhoto {
-        right: -50vw;
-    }    
+        right: -70vw;
+    }
+
+    #helloElm  {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    #im {
+        font-size: 3rem;
+        font-weight: 600;
+    }
+
+    #isuru {
+        color: skyblue;
+    }
+
+    #desig {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: rgb(255, 0, 0);
+    }
+
+    #para {
+        font-size: 0.8rem;
+    }
+    .hireMeBtn{
+        display: none;
+    }
+
+
+
 }
 
 .buttonList{

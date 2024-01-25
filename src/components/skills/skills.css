@@ -39,6 +39,8 @@
     gap: 2rem;
 }
 
+
+
 .image {
     object-fit: cover;
     height: 7rem;
@@ -54,4 +56,25 @@
 
 .skillComponent:hover {
     background-color: rgb(59, 59, 59);
+}
+@media screen and (max-width:1000px) {
+    .image{
+        object-fit: cover;
+        font-size: small;
+    }
+
+}
+
+@media screen and (max-width:750px) {
+    .skillsMainDiv {
+        display: flex;
+        flex-direction: column;
+    }
+    .skillComponent{
+        width: 75vw;
+    }
+    .image{
+        height: 50px;
+
+    }
 }

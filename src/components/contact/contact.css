@@ -41,8 +41,15 @@
     height: 7rem;
 }
 
+.clientList{
+    display: flex;
+    flex-direction: row;
+
+}
+
 .clientComponent {
     padding: 2rem;
+    margin: 2rem;
     border: 2px solid white;
     border-radius: 4rem;
     background-color: rgb(29, 29, 29);
@@ -119,4 +126,14 @@
 
 #emailIcon {
     padding-right: 0.4rem;
+}
+
+@media screen and (max-width:750px) {
+    .clientList{
+        display: flex;
+        flex-direction: column;
+    }
+    .clientComponent{
+        width: 75vw;
+    }
 }
