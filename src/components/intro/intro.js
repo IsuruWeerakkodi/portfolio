@@ -42,6 +42,7 @@ const intro = () => {
             <div className='buttonList'>
             <a href='https://github.com/IsuruWeerakkodi'><i id='btnxx' className="buttonListItem bi bi-github"></i></a>
             <a href='https://www.linkedin.com/in/isuru-weerakkodi-baa469118/'><i id='btnxx' className="buttonListItem bi bi-linkedin"></i></a>
+            <a href='https://medium.com/@isuruweerakkodi'><i id='btnxx' className="buttonListItem bi bi-medium"></i></a>
             
             <button  type="button" onClick={handleDownloadCV} className="buttonListItem cvBtn">
             <i className="hireMeBtnImg bi bi-cloud-arrow-down-fill"></i>
